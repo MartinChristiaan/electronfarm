@@ -4,62 +4,58 @@
 <head>
     <title>Simple Fable App</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="shortcut icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        /* Icon columns */
-
-        #explorer tr th:nth-child(1) {
-            width: 28px;
-        }
-        /* Date columns */
-
-        #explorer tr th:nth-child(3) {
-            width: 190px;
-        }
-        /* Name cells */
-
-        #explorer tr td:nth-child(2) {
-            max-width: 150px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+ 
 </head>
 
 
 <body>
-    <nav class="navbar">
+ 
+
+        <nav class="navbar">
         <div class="navbar-start">
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="#">
-                    File
-                </a>
-                <div class="navbar-dropdown">
-                    <a class="navbar-item" id="act-open-folder" href="#">
-                        Open folder
-                    </a>
-                    <a class="navbar-item" id="act-quit" href="#">
-                        Quit
-                    </a>
-                </div>
-            </div>
-            <a class="navbar-item" id="act-about" href="#">
-                About
+            <a class="menuitem" href="#">
+                Overview
             </a>
+            <a class="menuitem" href="#">
+                Training
+            </a>
+            <a class="menuitem" href="#">
+                Research
+            </a>
+            <a class="menuitem" href="#">
+                Inventory
+            </a>
+            <a class="menuitem" href="#">
+                Marketplace
+            </a>
+                
         </div>
+       
+
     </nav>
+    <div class="container">
 
+            <div class = "researchslots">
+                <div class="default-button">
+                    Fitness I
+                    <img src="css/fitnessicon.png" alt="Fitness">
+                </div>
+               
+            </div>
+            
 
-    <div id="myId">
+        </div>
+
+    
             
 
 
-    </div>
 
     <script src="renderer.js"></script>
 </body>

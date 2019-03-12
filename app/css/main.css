@@ -1,0 +1,68 @@
+
+html
+{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.navbar
+{
+  
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
+.menuitem
+{
+    position: relative;
+    top:25%;
+    color: white;
+
+    text-align: center;
+    width: 100px
+}
+.menuitem:hover
+{
+
+    color: rgb(170, 170, 170);
+}
+.container
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+   
+}
+.researchslots
+{
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    
+}
+.default-button
+{
+    background:  #434343;  /* fallback for old browsers */
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    color: white;
+    display: grid;
+    grid-template-rows: 10% 70% 10%;
+    
+    
+
+    
+}
+.default-button img
+{
+    position: relative;
+    top:10px;
+    max-width: 250px;
+    max-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}

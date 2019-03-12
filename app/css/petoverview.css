@@ -1,0 +1,67 @@
+
+
+.topBar
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.petOverview
+{
+    display: grid;
+    grid-template-columns: auto
+
+}
+
+.petContainer
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.5);;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto
+    
+}
+.petContainer:hover
+{
+    background-color:rgba(0, 0, 0, 1);;
+}
+.charicon
+{
+    position: relative;
+    top : 5px;
+}
+.statusimg
+{
+    position: relative;
+    top : 5px;
+    right: 5px;
+}
+.status
+{
+    display: grid;
+    grid-template-columns: auto 40px ;
+    width : 90px;
+}
+.progress
+{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 60% 30% 10%;
+}
+.minProgress
+{
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.maxProgress
+{
+    background: rgba(255, 127, 8, 0.415);  /* fallback for old browsers */
+}
+.centerText
+{
+    text-align: center;
+}
