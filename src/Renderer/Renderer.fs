@@ -19,3 +19,19 @@ open Fable.PowerPack
 // let mydiv = Browser.document.getElementById("myId")
 
 // mydiv.innerHTML <- mystring
+
+
+type Pet =
+    {
+        name : string;
+        icon : string;
+    }
+
+
+
+
+let get_pet () = 
+    {name  = "PetName"; icon = "BaseIcon"}
+
+
+
